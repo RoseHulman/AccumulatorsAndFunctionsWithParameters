@@ -37,7 +37,7 @@ def main():
 def run_test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function, as follows:
+    # Done: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
     #    So read the doc-string of the  sum_of_digits  function
@@ -72,6 +72,23 @@ def run_test_sum_of_digits():
     # Below this comment, add 3 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
+    #Test 2:
+    expected = 9
+    answer = sum_of_digits(432)
+    print('Test 2 expected:', expected)
+    print('         actual:', answer)
+
+    #Test 3:
+    expected = 15
+    answer = sum_of_digits(573)
+    print('Test 3 expected', expected)
+    print('         actual', answer)
+
+    #Test 4:
+    expected = 19
+    answer = sum_of_digits(649)
+    print('Test 4 expected', expected)
+    print('         actual', answer)
 
 def sum_of_digits(number):
     """
@@ -109,7 +126,7 @@ def sum_of_digits(number):
 def run_test_digits_in_cube():
     """ Tests the   digits_in_cube   function. """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement this function.
+    # Done: 3. Implement this function.
     #   It TESTS the  digits_in_cube  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -134,6 +151,23 @@ def run_test_digits_in_cube():
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
 
+    #Test 1
+    expected = 18
+    actual = digits_in_cube(9)
+    print('Test 1 expected', expected)
+    print('         actual', actual)
+
+    #Test 2
+    expected = 8
+    actual = digits_in_cube(8)
+    print('Test 2 expected', expected)
+    print('         actual', actual)
+
+    #Test 3
+    expected = 10
+    actual = digits_in_cube(7)
+    print('Test 3 expected', expected)
+    print('         actual', actual)
 
 def digits_in_cube(n):
     """
