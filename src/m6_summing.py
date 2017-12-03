@@ -31,19 +31,19 @@ def run_test_sum_cosines():
     print('Testing the   sum_cosines   function:')
     print('--------------------------------------------------')
 
-    #Test 1
+    # Test 1
     expected = -0.519480648
     actual = sum_cosines(4)
     print('Test 1 expected', expected)
     print('         actual', actual)
 
-    #Test 2
+    # Test 2
     expected = -0.235818463
     actual = sum_cosines(5)
     print('Test 2 expected', expected)
     print('         actual', actual)
 
-    #Test 3
+    # Test 3
     expected = 0.724351824
     actual = sum_cosines(6)
     print('Test 3 expected', expected)
@@ -90,23 +90,24 @@ def run_test_sum_square_roots():
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
 
-    #Test 1
+    # Test 1
     expected = 8.69213043
     actual = sum_square_roots(4)
     print('Test 1 expected', expected)
     print('         actual', actual)
 
-    #Test 2
+    # Test 2
     expected = 27.30280778
     actual = sum_square_roots(9)
     print('Test 2 expected', expected)
     print('         actual', actual)
 
-    #Test 3
+    # Test 3
     expected = 5.863703305
     actual = sum_square_roots(3)
     print('Test 3 expected', expected)
     print('         actual', actual)
+
 
 def sum_square_roots(n):
     """
