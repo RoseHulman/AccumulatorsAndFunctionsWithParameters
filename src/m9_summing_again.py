@@ -133,6 +133,6 @@ def sum_powers_in_range(m, n, p):
 
 
 # ----------------------------------------------------------------------
-# Calls  main  to start the ball rolling.
+# Calls  main  to start the ball rolling
 # ----------------------------------------------------------------------
 main()
